@@ -13,7 +13,7 @@
     // You can use any .ttf or .otf font!
     // https://github.com/jaames/zfont#zdogfont
     var font = new Zdog.Font({
-      src: ''
+      src: 'https://homiemace.github.io/css/fonts/bold.otf'
     });
     
     // Create a TextGroup object for the title
