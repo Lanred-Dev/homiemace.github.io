@@ -1,0 +1,66 @@
+@font-face {
+    font-family: "light";
+    src: url(../fonts/light.ttf);
+}
+
+@font-face {
+    font-family: "medium";
+    src: url(../fonts/medium.ttf);
+}
+
+@font-face {
+    font-family: "bold";
+    src: url(../fonts/bold.otf);
+}
+
+:root {
+    --color-1: #6667ab;
+    --background-1: #000000;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--color-1);
+    border-radius: 10px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+html {
+    overflow: overlay;
+}
+
+body {
+    width: 100%;
+    height: 200vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: #1a1a1a;
+    font-family: "medium",Arial;
+}
+
+img {
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a,
+button,
+*[role="button"] {
+    cursor: pointer;
+}
