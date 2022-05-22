@@ -1,0 +1,69 @@
+.body-inner-content .page-content {
+    width: 100vw;
+}
+
+.body-inner-content .page-content .welcome {
+    width: 100%;
+    height: 100vh;
+}
+
+.body-inner-content .page-content .welcome .container-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    text-align: center;
+}
+
+.body-inner-content .page-content .welcome .container-content .logo {
+    margin-bottom: 60px;
+}
+
+.body-inner-content .page-content .welcome .container-content .logo .logo-text-container {
+    padding-top: 60px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+}
+
+.body-inner-content .page-content .welcome .container-content .logo .logo-text-container .text-wrapper {
+    display: inline-block;
+}
+
+.body-inner-content .page-content .welcome .container-content .logo .logo-text-container .text-wrapper .logo-text {
+    color: var(--text-color);
+    font-size: 80px;
+    font-family: "bold";
+    word-break: break-word;
+    white-space: pre-line;
+    line-height: 75px;
+    display: none;
+}
+
+.body-inner-content .page-content .welcome .container-content .logo .logo-text-container .text-wrapper .logo-text .letter {
+    display: inline-block;
+}
+
+.body-inner-content .page-content .welcome .container-content .logo .slogan-container {
+    height: 33px;
+}
+
+.body-inner-content .page-content .welcome .container-content .logo .slogan-container .slogan-wrapper {
+    display: inline-block;
+}
+
+.body-inner-content .page-content .welcome .container-content .logo .slogan-container .slogan-wrapper .slogan-text {
+    color: var(--text-color);
+    font-size: 22px;
+    font-family: "regular";
+    display: none;
+}
+
+.body-inner-content .page-content .welcome .container-content .logo .slogan-container .slogan-wrapper .slogan-text .letter {
+    display: inline-block;
+}

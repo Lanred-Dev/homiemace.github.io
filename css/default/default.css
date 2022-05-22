@@ -16,6 +16,8 @@
 :root {
     --color-1: #6667ab;
     --background-1: #000000;
+    --text-color: #ffffff;
+    --text-color-light: #bdbebe;
 }
 
 *::-webkit-scrollbar {
