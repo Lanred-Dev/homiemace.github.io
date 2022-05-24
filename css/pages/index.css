@@ -23,6 +23,7 @@
 
 .body-inner-content .page-content .welcome .container-content .logo {
     margin-bottom: 60px;
+    width: 100%;
 }
 
 .body-inner-content .page-content .welcome .container-content .logo .logo-text-container {
@@ -60,7 +61,7 @@
 .body-inner-content .page-content .welcome .container-content .logo .slogan-container .slogan-wrapper .slogan-text {
     color: var(--text-color);
     font-size: 22px;
-    font-family: "regular";
+    font-family: "light";
     display: none;
 }
 
