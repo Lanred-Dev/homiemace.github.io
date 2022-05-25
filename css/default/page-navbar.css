@@ -1,0 +1,11 @@
+.page-navbar {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background-color: var(--background-1);
+    border-radius: 10px;
+}
+
+.page-navbar button {
+
+}

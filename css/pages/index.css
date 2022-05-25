@@ -32,21 +32,26 @@
     margin-bottom: 25px;
 }
 
-.body-inner-content .page-content .welcome .container-content .logo .logo-text-container .text-wrapper {
+.body-inner-content .page-content .welcome .container-content .logo .logo-text-container .text-wrapper, .body-inner-content .page-content .welcome .container-content .logo .slogan-container .slogan-wrapper {
     display: inline-block;
 }
 
+.body-inner-content .page-content .welcome .container-content .logo .slogan-container .slogan-wrapper .slogan-text,
 .body-inner-content .page-content .welcome .container-content .logo .logo-text-container .text-wrapper .logo-text {
     color: var(--text-color);
-    font-size: 80px;
     font-family: "bold";
-    word-break: break-word;
-    white-space: pre-line;
-    line-height: 75px;
     display: none;
 }
 
-.body-inner-content .page-content .welcome .container-content .logo .logo-text-container .text-wrapper .logo-text .letter {
+.body-inner-content .page-content .welcome .container-content .logo .logo-text-container .text-wrapper .logo-text {
+    font-size: 80px;
+    word-break: break-word;
+    white-space: pre-line;
+    line-height: 75px;
+}
+
+.body-inner-content .page-content .welcome .container-content .logo .logo-text-container .text-wrapper .logo-text .letter,
+.body-inner-content .page-content .welcome .container-content .logo .slogan-container .slogan-wrapper .slogan-text .letter {
     display: inline-block;
 }
 
@@ -54,17 +59,6 @@
     height: 33px;
 }
 
-.body-inner-content .page-content .welcome .container-content .logo .slogan-container .slogan-wrapper {
-    display: inline-block;
-}
-
 .body-inner-content .page-content .welcome .container-content .logo .slogan-container .slogan-wrapper .slogan-text {
-    color: var(--text-color);
     font-size: 22px;
-    font-family: "light";
-    display: none;
-}
-
-.body-inner-content .page-content .welcome .container-content .logo .slogan-container .slogan-wrapper .slogan-text .letter {
-    display: inline-block;
 }
